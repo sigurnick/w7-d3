@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    
+    display: block;
+    position: relative;
+  }
+  
+  body::after {
+    content: "";
+    background: url("/assets/stripe_background.png");
+    background-repeat: repeat;
+    
+
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
